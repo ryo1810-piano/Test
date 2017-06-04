@@ -1,4 +1,8 @@
 The C++ Numerical Analysis
 ===
+C++ program, mainly numarical analysis. 
+It's a file to collect my learning in C++.
 
-It's C++ program, mainly numarical analysis.
+#1 Solution of Simultaneous equations
+
+#2 Coming soon...
