@@ -1,10 +1,10 @@
 //
 
-//	ProducerFryo1810_piano
+//	Producerï¼šryo1810_piano
 
-//	Product:ƒKƒEƒXÁ‹–@‚É‚æ‚é‰ğ‚Ì‹‚ß•û<ƒ‰ƒ“ƒN—‚¿‚Íl—¶‚µ‚È‚¢>
+//	Product:ã‚¬ã‚¦ã‚¹æ¶ˆå»æ³•ã«ã‚ˆã‚‹è§£ã®æ±‚ã‚æ–¹<ãƒ©ãƒ³ã‚¯è½ã¡ã¯è€ƒæ…®ã—ãªã„>
 
-//	ExplanationFƒRƒ}ƒ“ƒhƒ‰ƒCƒ“ˆø”‚©‚çs”‚Ì“Ç¨—v‘f‚ğƒ‰ƒ“ƒ_ƒ€Œˆ’è¨ƒKƒEƒXÁ‹
+//	Explanationï¼šã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³å¼•æ•°ã‹ã‚‰è¡Œæ•°ã®èª­è¾¼â†’è¦ç´ ã‚’ãƒ©ãƒ³ãƒ€ãƒ æ±ºå®šâ†’ã‚¬ã‚¦ã‚¹æ¶ˆå»
 
 //
 
@@ -20,11 +20,11 @@
 
 
 
-#define EPS 1e-6	//EPSà+0
+#define EPS 1e-6	//EPSâ‰’+0
 
 
 
-//low-high‚Ü‚Å‚Ì®”‚©‚çƒ‰ƒ“ƒ_ƒ€‚È®”‚ğì‚éŠÖ”
+//low-highã¾ã§ã®æ•´æ•°ã‹ã‚‰ãƒ©ãƒ³ãƒ€ãƒ ãªæ•´æ•°ã‚’ä½œã‚‹é–¢æ•°
 
 double my_rand(int low, int high);
 
@@ -46,7 +46,7 @@ void main(int argc, char* argv[])
 
 	if(argc!=2){
 
-		printf("s—ñ‚Ì‘å‚«‚³‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢.\n");
+		printf("è¡Œåˆ—ã®å¤§ãã•ã‚’æŒ‡å®šã—ã¦ãã ã•ã„.\n");
 
 		exit(1);
 
@@ -90,7 +90,7 @@ double my_rand(int low, int high)
 
 	
 
-	//low-high‚Ü‚Å‚Ì”’l‚ğƒ‰ƒ“ƒ_ƒ€‚É¶¬
+	//low-highã¾ã§ã®æ•°å€¤ã‚’ãƒ©ãƒ³ãƒ€ãƒ ã«ç”Ÿæˆ
 
 	range = high-low+1;
 
@@ -100,7 +100,7 @@ double my_rand(int low, int high)
 
 	
 
-	//intŒ^‚ğdoubleŒ^‚É•ÏŠ·
+	//intå‹ã‚’doubleå‹ã«å¤‰æ›
 
 	r_num = (double)num;
 
@@ -110,7 +110,7 @@ double my_rand(int low, int high)
 
 
 
-//s—ñ‚ğì‚éŠÖ”
+//è¡Œåˆ—ã‚’ä½œã‚‹é–¢æ•°
 
 double** create_matrix(int N)
 
@@ -232,7 +232,7 @@ void solve_equation(double **a, int N)
 
 		//printf("pivot = %8.2f\n", pivot);
 
-			for(int j = 0;j<N+1;j++){ //is–Ú‚Ì—v‘f‚ğƒsƒ{ƒbƒg‚ÅŠ„‚Á‚Ä‚¢‚­(=0‚Å‚ ‚é‚Æ‚«‚Ì‘Îˆ‚ª•K—v)
+			for(int j = 0;j<N+1;j++){ //iè¡Œç›®ã®è¦ç´ ã‚’ãƒ”ãƒœãƒƒãƒˆã§å‰²ã£ã¦ã„ã(=0ã§ã‚ã‚‹ã¨ãã®å¯¾å‡¦ãŒå¿…è¦)
 
 			a[i][j] /= pivot;
 
@@ -258,7 +258,7 @@ void solve_equation(double **a, int N)
 
 	}
 
-	printf("\n\n‰ğÍ‰ğF");
+	printf("\n\nè§£æè§£ï¼š");
 
 	for(int i = 0;i<N;i++){
 
