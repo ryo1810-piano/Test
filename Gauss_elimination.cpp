@@ -1,7 +1,5 @@
 //
-//	test.cpp ... nŸ˜A—§•û’ö®‚Ì‰ğ–@
-//
-//	ì¬ÒF3”N5‘g31”Ô ›ˆä —Å
+//	test.cpp ... næ¬¡é€£ç«‹æ–¹ç¨‹å¼ã®è§£æ³•
 //
 
 #include <stdio.h>
@@ -85,7 +83,7 @@ void solve_equation(double **a, int N)
 		}
 		pivot = a[i][i];
 		//printf("pivot = %8.2f\n", pivot);
-			for(int j = 0;j<N+1;j++){ //is–Ú‚Ì—v‘f‚ğƒsƒ{ƒbƒg‚ÅŠ„‚Á‚Ä‚¢‚­(=0‚Å‚ ‚é‚Æ‚«‚Ì‘Îˆ‚ª•K—v)
+			for(int j = 0;j<N+1;j++){ //iè¡Œç›®ã®è¦ç´ ã‚’ãƒ”ãƒœãƒƒãƒˆã§å‰²ã£ã¦ã„ã(=0ã§ã‚ã‚‹ã¨ãã®å¯¾å‡¦ãŒå¿…è¦)
 			a[i][j] /= pivot;
 		}
 		for(int j = 0;j<N;j++){
@@ -98,7 +96,7 @@ void solve_equation(double **a, int N)
 		}
 		print_matrix(a, N);
 	}
-	printf("\n\n‰ğÍ‰ğF");
+	printf("\n\nè§£æè§£ï¼š");
 	for(int i = 0;i<N;i++){
 		printf("%5.2f\t", a[i][N]);
 	}
@@ -110,7 +108,7 @@ void main(int argc, char* argv[])
 	double **a;
 	
 	if(argc!=2){
-		printf("s—ñ‚Ì‘å‚«‚³‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢.\n");
+		printf("è¡Œåˆ—ã®å¤§ãã•ã‚’æŒ‡å®šã—ã¦ãã ã•ã„.\n");
 		exit(1);
 	}
 	
