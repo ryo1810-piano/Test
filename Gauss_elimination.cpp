@@ -1,5 +1,7 @@
 //
-//	test.cpp ... n次連立方程式の解法
+//	Producer：ryo1810_piano
+//	Product:ガウス消去法による解の求め方<ランク落ちは考慮しない>
+//	Explanation：コマンドライン引数から行数の読込→要素をランダム決定→ガウス消去
 //
 
 #include <stdio.h>
