@@ -9,8 +9,9 @@
 #include <time.h>
 #include <math.h>
 
-#define EPS 1e-6
+#define EPS 1e-6	//EPS≒+0
 
+//low-highまでの整数からランダムな整数を作る関数
 double my_rand(int low, int high)
 {
 	double r_num;
@@ -21,10 +22,12 @@ double my_rand(int low, int high)
 	num = rand()%range;
 	num += low;
 	
+	//int
 	r_num = (double)num;
 	return r_num;
 }
 
+//行列を作る関数
 double** create_matrix(int N)
 {
 	double **a = new double* [N];
