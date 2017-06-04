@@ -18,11 +18,12 @@ double my_rand(int low, int high)
 	int num;
 	int range;
 	
+	//low-highまでの数値をランダムに生成
 	range = high-low+1;
 	num = rand()%range;
 	num += low;
 	
-	//int
+	//int型をdouble型に変換
 	r_num = (double)num;
 	return r_num;
 }
