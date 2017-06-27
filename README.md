@@ -1,4 +1,4 @@
-The C++ Numerical Analysis
+The C/C++ Numerical Analysis
 ===
 C++ program, mainly numarical analysis. 
 It's a file to collect my learning in C++.
